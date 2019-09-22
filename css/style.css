@@ -1,0 +1,229 @@
+/*font-family: 'Inconsolata', monospace;*/
+/*font-family: 'Playfair Display', serif;*/
+/*font-family: 'Ubuntu', sans-serif;*/
+
+body{
+	font-family: 'Playfair Display', serif;
+	margin: 0;
+	padding: 0;
+}
+
+/*header start here*/
+header{
+	padding: 40px 0;
+    /*border: 1px solid black;*/
+}
+.wrapper{
+	width: 90%;
+	margin: 0 auto;
+	/*border: 1px solid black;*/
+	overflow: hidden;
+}
+.logo{
+	width: 15%;
+	float: left;
+	/*border: 1px solid black;*/
+}
+.logo a{
+	display: block;
+}
+.logo img{
+	width: 100%;
+	margin-top: 5px;
+}
+.menu{
+	width: 70%;
+	float: right;
+	/*border: 1px solid black;*/
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+.menu ul li a{
+	font-weight: 700px;
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #626262;
+	display: block;
+	padding: 0 60px;
+	transition: 0.5s;
+	text-decoration: none;
+}
+.menu ul li a:hover{
+	color: #000000;
+}
+/*header end here*/
+
+/*banner start here*/
+.banner{
+}
+.banner img{
+	width: 100%;
+}
+/*banner end here*/
+
+/*content start here*/
+.content{
+	padding: 100px 0 30px 0;
+	/*border: 1px solid black;*/
+}
+.content_wrapper{
+	width: 75%;
+	margin: 0 auto;
+	overflow: hidden;
+	/*border: 1px solid black;*/
+}
+.content_text{}
+.content_text h3{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #b4ad9e;
+	margin: 0;
+}
+.content_text h1{
+	font-weight: 400;
+	font-size: 30px;
+	color: #626262;
+	padding-top: 30px;
+	padding-bottom: 40px;
+	margin: 0;
+}
+.content_text p{
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 26px;
+	padding-bottom: 75px;
+	margin: 0;
+	color: #626262;
+}
+/*content end here*/
+
+/*lifestyle start here*/
+.lifestyle{
+	padding-top: 100px;
+}
+.single{
+	width: 47%;
+	float: left;
+}
+.single h3{
+	padding-top: 30px;
+}
+.lifestyle_img{
+	width: 100%;
+}
+.lifestyle_img img{
+	width: 100%;
+}
+
+.single_right{
+	width: 47%;
+	float: right;
+}
+.single_right h3{
+	padding-top: 30px;
+}
+/*lifestyle end here*/
+
+/*newsletter section start here*/
+.newsletter{
+	background-color: #F0F0F0;
+	padding: 70px 0;
+}
+.newsletter_wrapper{
+	width: 30%;
+	/*border: 1px solid black;*/
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.newsletter_wrapper h1{
+	font-weight: 400;
+	font-size: 30px;
+	text-align: center;
+	color: #333333;
+	margin: 0;
+}
+.newsletter_send{
+	margin-top: 40px;
+	margin-left: 25px;
+}
+.newsletter_send input{
+	background-color: #F0F0F0;
+	border: none;
+	padding: 10px 133px 10px 0;
+}
+.newsletter_wrapper hr{
+	width: 87%;
+}
+/*newsletter section end here*/
+
+/*btn start here*/
+.btn{
+	padding: 80px 0 150px 0;
+}
+.btn button{
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	font-size: 20px;
+	background-color: #FFFFFF;
+	color: #626262;
+	padding: 0 42px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+/*btn end here*/
+
+/*footer sectioon start here*/
+footer{
+	background-color: #F0F0F0;
+	padding: 35px 0 45px 0;
+	/*border: 1px solid black;*/
+}
+.footer_menu{
+	width: 40%;
+	float: left;
+	/*border: 1px solid black;*/
+}
+.footer_menu ul{
+}
+.footer_menu ul li{
+	list-style: none;
+	float: left;
+}
+.footer_menu ul li a{
+	font-weight: 400px;
+	font-size: 16px;
+	color: #000000;
+	text-decoration: none;
+	display: block;
+	padding: 0 10px;
+}
+.social_media{
+	width: 15%;
+	float: right;
+	margin-top: 10px;
+	/*border: 1px solid black;*/
+}
+.social_media p{
+	float: left;
+	margin: 0;
+	/*border: 1px solid black;*/
+}
+.social_media_icon img{
+	float: right;
+	padding: 0 10px;
+	/*border: 1px solid black;*/
+	margin-top: 4px;
+}
+/*footer sectioon end here*/
